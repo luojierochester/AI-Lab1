@@ -1,0 +1,109 @@
+{
+  "origin": "SearchFramework2.1_new_3.30.zip",
+  "files": [
+    {
+      "path": "src/algs4/util/StdRandom.java",
+      "sha256": "f1a6ff3820097c483ad4f76d3fead16c83e234021b118e21d6b13606b6ed813b"
+    },
+    {
+      "path": "src/algs4/util/Stopwatch.java",
+      "sha256": "35e7cd78ebe999124844e76347c83b9edff4e7c4140c9776670776747bd76044"
+    },
+    {
+      "path": "src/algs4/util/StopwatchCPU.java",
+      "sha256": "156af06f4293ce083c7a539dca0923f9fb1b933d7b11d1532f35090b304ea2b8"
+    },
+    {
+      "path": "src/core/problem/Action.java",
+      "sha256": "259fa64270bc6b9ef910bda724a5b80fd56eb336b1624de321e80bcd1580a6a4"
+    },
+    {
+      "path": "src/core/problem/Problem.java",
+      "sha256": "3d8fa3f9960eb241f45cd30a7850eaa6b44270f32033fdc0895505eb2861cc8c"
+    },
+    {
+      "path": "src/core/problem/ProblemType.java",
+      "sha256": "c557f29754ffd12aff1fbe42dff1cbad1fcb2010e6b0eebe36422d0bdfe33082"
+    },
+    {
+      "path": "src/core/problem/State.java",
+      "sha256": "62399e13f25ac348a7710b96083d391245937c873a0218afad53d2e0b629dda2"
+    },
+    {
+      "path": "src/core/runner/EngineFeeder.java",
+      "sha256": "6efc9d1346d03c9d4dc667a757a2476a21b2f7d5bcefc8e7780db9f785a52c26"
+    },
+    {
+      "path": "src/core/runner/SearchTester.java",
+      "sha256": "1b1c02efaf45a5fb45b2ad178f0cd989965d64dc535ed5a808a6f745df6585f7"
+    },
+    {
+      "path": "src/core/solver/algorithm/heuristic/HeuristicType.java",
+      "sha256": "8edccb736b27117df269389b9b0360a971f609ca923a054dc2378dadaf75f6e3"
+    },
+    {
+      "path": "src/core/solver/algorithm/heuristic/Predictor.java",
+      "sha256": "263b2d6e91e0bff56090a0317a6f3257d1023acbffc98bed264d979a6ef84093"
+    },
+    {
+      "path": "src/core/solver/algorithm/searcher/AbstractSearcher.java",
+      "sha256": "257a8aef5bb85743623438abfb44f40ebff5be72c2cf5139d3862b18539a7462"
+    },
+    {
+      "path": "src/core/solver/algorithm/searcher/BestFirstSearcher.java",
+      "sha256": "424e7a809cc4d51d6ffe156223635eb963779d9dee359a1c47ec49b7e184c440"
+    },
+    {
+      "path": "src/core/solver/queue/EvaluationType.java",
+      "sha256": "c48ccde7b74d97143059708679867996d8dbb7ee96d975fdfa1ea0da78894c65"
+    },
+    {
+      "path": "src/core/solver/queue/Frontier.java",
+      "sha256": "36206004576a373951a846a374b043c33f7fff47809165e66495a75c881f5d9b"
+    },
+    {
+      "path": "src/core/solver/queue/Node.java",
+      "sha256": "bf5f62c6c3fd9f536ca140781d3d0904c58f6895b27963d3209374b2346169e2"
+    },
+    {
+      "path": "src/stud/problem/pathfinding/Direction.java",
+      "sha256": "4ce50163accf7f6f1e4204f58d13db9145857c2462126a198e7438aa4ebaf8dd"
+    },
+    {
+      "path": "src/stud/problem/pathfinding/GridType.java",
+      "sha256": "f21489d733da2e0909f2cc8f00aafe8cfd1ff9b99f674deceaa76f594e07f7a1"
+    },
+    {
+      "path": "src/stud/problem/pathfinding/Move.java",
+      "sha256": "99877831356a46bd58b9c58b02ab9ed06d3d9cc3741cd9d6b4b327e7c825879d"
+    },
+    {
+      "path": "src/stud/problem/pathfinding/PathFinding.java",
+      "sha256": "e4cdec3cb37c0ac728a88a11567b9a426bc55e902d8b0d949496be9a4292d4f3"
+    },
+    {
+      "path": "src/stud/problem/pathfinding/Position.java",
+      "sha256": "0e517ede0cda4511af9341d421505bc4d93505b6a7ce247a5aecbc5eafb2a300"
+    },
+    {
+      "path": "src/stud/queue/ListFrontier.java",
+      "sha256": "26014c6ea29b36fa8d2d297ffd77727273c11e10201a3beffe48ef66b7b490e4"
+    },
+    {
+      "path": "src/stud/queue/PqFrontier.java",
+      "sha256": "ee47b8ec7f2ca2b388a1b085b4dad9096d766469ca30db8813089bf31c49cac4"
+    },
+    {
+      "path": "src/stud/queue/QueueFrontier.java",
+      "sha256": "057de9692bedb2ed2c3d9cbdf107b5787d63f4f21150b774933de015ab60f465"
+    },
+    {
+      "path": "src/stud/queue/StackFrontier.java",
+      "sha256": "94c8b827b17ca194875bb531b696f7b06d4a7eb98ece859f5805f2dc92f6f6d4"
+    },
+    {
+      "path": "src/stud/runner/WalkerFeeder.java",
+      "sha256": "79bbbde2d52dabf6d7207b31c26752f5231cd8a550bc24bb09a989e34c1237c2"
+    }
+  ]
+}

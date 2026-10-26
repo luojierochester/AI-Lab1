@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-10-26T09:26:25.091462400Z",
+  "args": ["solve","--input","resources/problems3.txt","--case","10","--algorithm","ida","--heuristic","pdb","--timeout","60","--nodes","1000000000","--output","results/hard15-warm-1.npz"],
+  "java": "21.0.11+11-LTS",
+  "os": "Windows 11 amd64",
+  "input_sha256": "2ce87a7a6fd2c65713eb7b3355889a0dc6f828a1a9c86b91221e8721de13c2df",
+  "max_heap_bytes": 4294967296,
+  "pattern_size": 6,
+  "pdb_symmetry": true,
+  "tt_power": 21,
+  "pdb_cache": ".cache/acceptance-cold",
+  "timeout_seconds": 60.0,
+  "warmup": "none"
+}

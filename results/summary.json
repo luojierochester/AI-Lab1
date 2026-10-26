@@ -1,0 +1,1406 @@
+[
+  {
+    "file": "course-eight.csv",
+    "case": "1",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "misplaced",
+    "frontier": "heap",
+    "measurements": 5,
+    "successes": 5,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      21
+    ],
+    "wall_median_seconds": 0.010444,
+    "wall_min_seconds": 0.0046558,
+    "wall_max_seconds": 0.0296341,
+    "expanded_median": 5794
+  },
+  {
+    "file": "course-eight.csv",
+    "case": "2",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "misplaced",
+    "frontier": "heap",
+    "measurements": 5,
+    "successes": 5,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.180421,
+    "wall_min_seconds": 0.1673762,
+    "wall_max_seconds": 0.2054845,
+    "expanded_median": 121533
+  },
+  {
+    "file": "course-eight.csv",
+    "case": "3",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "misplaced",
+    "frontier": "heap",
+    "measurements": 5,
+    "successes": 5,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.1722925,
+    "wall_min_seconds": 0.1613699,
+    "wall_max_seconds": 0.1971516,
+    "expanded_median": 121536
+  },
+  {
+    "file": "course-eight.csv",
+    "case": "1",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "manhattan",
+    "frontier": "heap",
+    "measurements": 5,
+    "successes": 5,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      21
+    ],
+    "wall_median_seconds": 0.0006189,
+    "wall_min_seconds": 0.000591,
+    "wall_max_seconds": 0.0008347,
+    "expanded_median": 574
+  },
+  {
+    "file": "course-eight.csv",
+    "case": "2",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "manhattan",
+    "frontier": "heap",
+    "measurements": 5,
+    "successes": 5,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.0082112,
+    "wall_min_seconds": 0.0077244,
+    "wall_max_seconds": 0.0104308,
+    "expanded_median": 6856
+  },
+  {
+    "file": "course-eight.csv",
+    "case": "3",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "manhattan",
+    "frontier": "heap",
+    "measurements": 5,
+    "successes": 5,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.0078433,
+    "wall_min_seconds": 0.0069037,
+    "wall_max_seconds": 0.0085125,
+    "expanded_median": 6820
+  },
+  {
+    "file": "course-eight.csv",
+    "case": "1",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 5,
+    "successes": 5,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      21
+    ],
+    "wall_median_seconds": 0.0006227,
+    "wall_min_seconds": 0.0002911,
+    "wall_max_seconds": 0.000777,
+    "expanded_median": 210
+  },
+  {
+    "file": "course-eight.csv",
+    "case": "2",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 5,
+    "successes": 5,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.0035138,
+    "wall_min_seconds": 0.0031885,
+    "wall_max_seconds": 0.0039198,
+    "expanded_median": 2632
+  },
+  {
+    "file": "course-eight.csv",
+    "case": "3",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 5,
+    "successes": 5,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.003274,
+    "wall_min_seconds": 0.0032471,
+    "wall_max_seconds": 0.0034214,
+    "expanded_median": 2625
+  },
+  {
+    "file": "course-eight.csv",
+    "case": "1",
+    "size": "3",
+    "algorithm": "ida",
+    "heuristic": "misplaced",
+    "frontier": "heap",
+    "measurements": 5,
+    "successes": 5,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      21
+    ],
+    "wall_median_seconds": 0.0028473,
+    "wall_min_seconds": 0.0018567,
+    "wall_max_seconds": 0.0090075,
+    "expanded_median": 13898
+  },
+  {
+    "file": "course-eight.csv",
+    "case": "2",
+    "size": "3",
+    "algorithm": "ida",
+    "heuristic": "misplaced",
+    "frontier": "heap",
+    "measurements": 5,
+    "successes": 5,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.0599224,
+    "wall_min_seconds": 0.0568569,
+    "wall_max_seconds": 0.0668831,
+    "expanded_median": 779942
+  },
+  {
+    "file": "course-eight.csv",
+    "case": "3",
+    "size": "3",
+    "algorithm": "ida",
+    "heuristic": "misplaced",
+    "frontier": "heap",
+    "measurements": 5,
+    "successes": 5,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.057705,
+    "wall_min_seconds": 0.0555547,
+    "wall_max_seconds": 0.0585198,
+    "expanded_median": 728418
+  },
+  {
+    "file": "course-eight.csv",
+    "case": "1",
+    "size": "3",
+    "algorithm": "ida",
+    "heuristic": "manhattan",
+    "frontier": "heap",
+    "measurements": 5,
+    "successes": 5,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      21
+    ],
+    "wall_median_seconds": 0.00166,
+    "wall_min_seconds": 0.001372,
+    "wall_max_seconds": 0.0048253,
+    "expanded_median": 912
+  },
+  {
+    "file": "course-eight.csv",
+    "case": "2",
+    "size": "3",
+    "algorithm": "ida",
+    "heuristic": "manhattan",
+    "frontier": "heap",
+    "measurements": 5,
+    "successes": 5,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.0023795,
+    "wall_min_seconds": 0.0022339,
+    "wall_max_seconds": 0.0055146,
+    "expanded_median": 12151
+  },
+  {
+    "file": "course-eight.csv",
+    "case": "3",
+    "size": "3",
+    "algorithm": "ida",
+    "heuristic": "manhattan",
+    "frontier": "heap",
+    "measurements": 5,
+    "successes": 5,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.0023285,
+    "wall_min_seconds": 0.0021655,
+    "wall_max_seconds": 0.0056189,
+    "expanded_median": 9762
+  },
+  {
+    "file": "course-eight.csv",
+    "case": "1",
+    "size": "3",
+    "algorithm": "ida",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 5,
+    "successes": 5,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      21
+    ],
+    "wall_median_seconds": 0.0021081,
+    "wall_min_seconds": 0.0016505,
+    "wall_max_seconds": 0.0050884,
+    "expanded_median": 396
+  },
+  {
+    "file": "course-eight.csv",
+    "case": "2",
+    "size": "3",
+    "algorithm": "ida",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 5,
+    "successes": 5,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.0022276,
+    "wall_min_seconds": 0.0021225,
+    "wall_max_seconds": 0.0068024,
+    "expanded_median": 4572
+  },
+  {
+    "file": "course-eight.csv",
+    "case": "3",
+    "size": "3",
+    "algorithm": "ida",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 5,
+    "successes": 5,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.0021791,
+    "wall_min_seconds": 0.0017532,
+    "wall_max_seconds": 0.0022956,
+    "expanded_median": 3538
+  },
+  {
+    "file": "frontiers-eight.csv",
+    "case": "1",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "manhattan",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      21
+    ],
+    "wall_median_seconds": 0.0018481,
+    "wall_min_seconds": 0.0011179,
+    "wall_max_seconds": 0.0054696,
+    "expanded_median": 574
+  },
+  {
+    "file": "frontiers-eight.csv",
+    "case": "2",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "manhattan",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.0138855,
+    "wall_min_seconds": 0.0091881,
+    "wall_max_seconds": 0.0142191,
+    "expanded_median": 6856
+  },
+  {
+    "file": "frontiers-eight.csv",
+    "case": "3",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "manhattan",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.0070566,
+    "wall_min_seconds": 0.0064517,
+    "wall_max_seconds": 0.0072231,
+    "expanded_median": 6820
+  },
+  {
+    "file": "frontiers-eight.csv",
+    "case": "1",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "manhattan",
+    "frontier": "list",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      21
+    ],
+    "wall_median_seconds": 0.0021068,
+    "wall_min_seconds": 0.0008228,
+    "wall_max_seconds": 0.0030652,
+    "expanded_median": 574
+  },
+  {
+    "file": "frontiers-eight.csv",
+    "case": "2",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "manhattan",
+    "frontier": "list",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.0234157,
+    "wall_min_seconds": 0.02332,
+    "wall_max_seconds": 0.0273798,
+    "expanded_median": 6856
+  },
+  {
+    "file": "frontiers-eight.csv",
+    "case": "3",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "manhattan",
+    "frontier": "list",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.0222943,
+    "wall_min_seconds": 0.0222179,
+    "wall_max_seconds": 0.0229208,
+    "expanded_median": 6820
+  },
+  {
+    "file": "frontiers-eight.csv",
+    "case": "1",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      21
+    ],
+    "wall_median_seconds": 0.0002419,
+    "wall_min_seconds": 0.0002165,
+    "wall_max_seconds": 0.0007448,
+    "expanded_median": 210
+  },
+  {
+    "file": "frontiers-eight.csv",
+    "case": "2",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.0027455,
+    "wall_min_seconds": 0.0026628,
+    "wall_max_seconds": 0.0028635,
+    "expanded_median": 2632
+  },
+  {
+    "file": "frontiers-eight.csv",
+    "case": "3",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.0025663,
+    "wall_min_seconds": 0.0025548,
+    "wall_max_seconds": 0.0026371,
+    "expanded_median": 2625
+  },
+  {
+    "file": "frontiers-eight.csv",
+    "case": "1",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "pdb",
+    "frontier": "list",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      21
+    ],
+    "wall_median_seconds": 0.0002483,
+    "wall_min_seconds": 0.0002207,
+    "wall_max_seconds": 0.000285,
+    "expanded_median": 210
+  },
+  {
+    "file": "frontiers-eight.csv",
+    "case": "2",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "pdb",
+    "frontier": "list",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.0047726,
+    "wall_min_seconds": 0.0047663,
+    "wall_max_seconds": 0.0048723,
+    "expanded_median": 2632
+  },
+  {
+    "file": "frontiers-eight.csv",
+    "case": "3",
+    "size": "3",
+    "algorithm": "astar",
+    "heuristic": "pdb",
+    "frontier": "list",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      31
+    ],
+    "wall_median_seconds": 0.0051065,
+    "wall_min_seconds": 0.0050892,
+    "wall_max_seconds": 0.0052456,
+    "expanded_median": 2625
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "5",
+    "size": "4",
+    "algorithm": "astar",
+    "heuristic": "misplaced",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      10
+    ],
+    "wall_median_seconds": 0.0003446,
+    "wall_min_seconds": 0.0003103,
+    "wall_max_seconds": 0.0003811,
+    "expanded_median": 10
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "6",
+    "size": "4",
+    "algorithm": "astar",
+    "heuristic": "misplaced",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      18
+    ],
+    "wall_median_seconds": 0.0017094,
+    "wall_min_seconds": 0.0012942,
+    "wall_max_seconds": 0.003917,
+    "expanded_median": 446
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "7",
+    "size": "4",
+    "algorithm": "astar",
+    "heuristic": "misplaced",
+    "frontier": "heap",
+    "measurements": 1,
+    "successes": 0,
+    "statuses": [
+      "NODE_LIMIT"
+    ],
+    "moves": [],
+    "wall_median_seconds": null,
+    "wall_min_seconds": null,
+    "wall_max_seconds": null,
+    "expanded_median": null
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "8",
+    "size": "4",
+    "algorithm": "astar",
+    "heuristic": "misplaced",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      30
+    ],
+    "wall_median_seconds": 1.3362345,
+    "wall_min_seconds": 1.183066,
+    "wall_max_seconds": 1.3431201,
+    "expanded_median": 503421
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "5",
+    "size": "4",
+    "algorithm": "astar",
+    "heuristic": "manhattan",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      10
+    ],
+    "wall_median_seconds": 7.19e-05,
+    "wall_min_seconds": 5.79e-05,
+    "wall_max_seconds": 0.000133,
+    "expanded_median": 10
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "6",
+    "size": "4",
+    "algorithm": "astar",
+    "heuristic": "manhattan",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      18
+    ],
+    "wall_median_seconds": 9.93e-05,
+    "wall_min_seconds": 9.48e-05,
+    "wall_max_seconds": 0.0001085,
+    "expanded_median": 42
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "7",
+    "size": "4",
+    "algorithm": "astar",
+    "heuristic": "manhattan",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      30
+    ],
+    "wall_median_seconds": 0.0186631,
+    "wall_min_seconds": 0.0184798,
+    "wall_max_seconds": 0.023934,
+    "expanded_median": 17800
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "8",
+    "size": "4",
+    "algorithm": "astar",
+    "heuristic": "manhattan",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      30
+    ],
+    "wall_median_seconds": 0.0007391,
+    "wall_min_seconds": 0.0006772,
+    "wall_max_seconds": 0.0007972,
+    "expanded_median": 798
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "5",
+    "size": "4",
+    "algorithm": "astar",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      10
+    ],
+    "wall_median_seconds": 0.000161,
+    "wall_min_seconds": 0.0001076,
+    "wall_max_seconds": 0.0002025,
+    "expanded_median": 10
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "6",
+    "size": "4",
+    "algorithm": "astar",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      18
+    ],
+    "wall_median_seconds": 7.14e-05,
+    "wall_min_seconds": 6.97e-05,
+    "wall_max_seconds": 8.35e-05,
+    "expanded_median": 18
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "7",
+    "size": "4",
+    "algorithm": "astar",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      30
+    ],
+    "wall_median_seconds": 0.0008871,
+    "wall_min_seconds": 0.0008089,
+    "wall_max_seconds": 0.0010578,
+    "expanded_median": 636
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "8",
+    "size": "4",
+    "algorithm": "astar",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      30
+    ],
+    "wall_median_seconds": 0.0002045,
+    "wall_min_seconds": 0.0001856,
+    "wall_max_seconds": 0.00024,
+    "expanded_median": 143
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "5",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "misplaced",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      10
+    ],
+    "wall_median_seconds": 0.002473,
+    "wall_min_seconds": 0.0011073,
+    "wall_max_seconds": 0.0047436,
+    "expanded_median": 10
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "6",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "misplaced",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      18
+    ],
+    "wall_median_seconds": 0.0032241,
+    "wall_min_seconds": 0.002605,
+    "wall_max_seconds": 0.0032962,
+    "expanded_median": 1228
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "7",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "misplaced",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      30
+    ],
+    "wall_median_seconds": 0.2470751,
+    "wall_min_seconds": 0.2456603,
+    "wall_max_seconds": 0.2491222,
+    "expanded_median": 2908774
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "8",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "misplaced",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      30
+    ],
+    "wall_median_seconds": 0.1106826,
+    "wall_min_seconds": 0.1100424,
+    "wall_max_seconds": 0.1110613,
+    "expanded_median": 1499486
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "5",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "manhattan",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      10
+    ],
+    "wall_median_seconds": 0.0017692,
+    "wall_min_seconds": 0.001266,
+    "wall_max_seconds": 0.0018008,
+    "expanded_median": 10
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "6",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "manhattan",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      18
+    ],
+    "wall_median_seconds": 0.0013316,
+    "wall_min_seconds": 0.0011109,
+    "wall_max_seconds": 0.0013712,
+    "expanded_median": 85
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "7",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "manhattan",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      30
+    ],
+    "wall_median_seconds": 0.0065586,
+    "wall_min_seconds": 0.0049244,
+    "wall_max_seconds": 0.0100009,
+    "expanded_median": 49238
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "8",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "manhattan",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      30
+    ],
+    "wall_median_seconds": 0.0033808,
+    "wall_min_seconds": 0.0024231,
+    "wall_max_seconds": 0.0058487,
+    "expanded_median": 1082
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "5",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      10
+    ],
+    "wall_median_seconds": 0.0067809,
+    "wall_min_seconds": 0.0061764,
+    "wall_max_seconds": 0.0072808,
+    "expanded_median": 10
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "6",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      18
+    ],
+    "wall_median_seconds": 0.0075555,
+    "wall_min_seconds": 0.0074493,
+    "wall_max_seconds": 0.0077132,
+    "expanded_median": 18
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "7",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      30
+    ],
+    "wall_median_seconds": 0.0078774,
+    "wall_min_seconds": 0.0070852,
+    "wall_max_seconds": 0.0079328,
+    "expanded_median": 633
+  },
+  {
+    "file": "generated-fifteen.csv",
+    "case": "8",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      30
+    ],
+    "wall_median_seconds": 0.0068641,
+    "wall_min_seconds": 0.0068072,
+    "wall_max_seconds": 0.0068858,
+    "expanded_median": 223
+  },
+  {
+    "file": "course-fifteen-pdb.csv",
+    "case": "4",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 1,
+    "successes": 1,
+    "statuses": [
+      "SOLVED"
+    ],
+    "moves": [
+      52
+    ],
+    "wall_median_seconds": 0.0255293,
+    "wall_min_seconds": 0.0255293,
+    "wall_max_seconds": 0.0255293,
+    "expanded_median": 84854
+  },
+  {
+    "file": "course-fifteen-pdb.csv",
+    "case": "5",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 1,
+    "successes": 1,
+    "statuses": [
+      "SOLVED"
+    ],
+    "moves": [
+      51
+    ],
+    "wall_median_seconds": 0.0258161,
+    "wall_min_seconds": 0.0258161,
+    "wall_max_seconds": 0.0258161,
+    "expanded_median": 99878
+  },
+  {
+    "file": "course-fifteen-pdb.csv",
+    "case": "6",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 1,
+    "successes": 1,
+    "statuses": [
+      "SOLVED"
+    ],
+    "moves": [
+      56
+    ],
+    "wall_median_seconds": 0.095987,
+    "wall_min_seconds": 0.095987,
+    "wall_max_seconds": 0.095987,
+    "expanded_median": 513042
+  },
+  {
+    "file": "course-fifteen-pdb.csv",
+    "case": "7",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 1,
+    "successes": 1,
+    "statuses": [
+      "SOLVED"
+    ],
+    "moves": [
+      57
+    ],
+    "wall_median_seconds": 0.4888843,
+    "wall_min_seconds": 0.4888843,
+    "wall_max_seconds": 0.4888843,
+    "expanded_median": 2645398
+  },
+  {
+    "file": "course-fifteen-pdb.csv",
+    "case": "8",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 1,
+    "successes": 1,
+    "statuses": [
+      "SOLVED"
+    ],
+    "moves": [
+      50
+    ],
+    "wall_median_seconds": 0.0279611,
+    "wall_min_seconds": 0.0279611,
+    "wall_max_seconds": 0.0279611,
+    "expanded_median": 141689
+  },
+  {
+    "file": "course-fifteen-pdb.csv",
+    "case": "9",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 1,
+    "successes": 1,
+    "statuses": [
+      "SOLVED"
+    ],
+    "moves": [
+      61
+    ],
+    "wall_median_seconds": 3.1307712,
+    "wall_min_seconds": 3.1307712,
+    "wall_max_seconds": 3.1307712,
+    "expanded_median": 16361540
+  },
+  {
+    "file": "course-fifteen-pdb.csv",
+    "case": "10",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 1,
+    "successes": 1,
+    "statuses": [
+      "SOLVED"
+    ],
+    "moves": [
+      70
+    ],
+    "wall_median_seconds": 36.235512,
+    "wall_min_seconds": 36.235512,
+    "wall_max_seconds": 36.235512,
+    "expanded_median": 213927977
+  },
+  {
+    "file": "course-fifteen-baseline.csv",
+    "case": "4",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "manhattan",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      52
+    ],
+    "wall_median_seconds": 0.0412448,
+    "wall_min_seconds": 0.041149,
+    "wall_max_seconds": 0.0431432,
+    "expanded_median": 379859
+  },
+  {
+    "file": "course-fifteen-baseline.csv",
+    "case": "4",
+    "size": "4",
+    "algorithm": "ida",
+    "heuristic": "pdb",
+    "frontier": "heap",
+    "measurements": 3,
+    "successes": 3,
+    "statuses": [
+      "SOLVED",
+      "SOLVED",
+      "SOLVED"
+    ],
+    "moves": [
+      52
+    ],
+    "wall_median_seconds": 0.0168581,
+    "wall_min_seconds": 0.01569,
+    "wall_max_seconds": 0.0199435,
+    "expanded_median": 84854
+  }
+]

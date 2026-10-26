@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-10-26T09:29:45.731962300Z",
+  "args": ["benchmark","--input","resources/generated.txt","--size","4","--repeats","3","--timeout","10","--output","results/generated-fifteen.csv"],
+  "java": "21.0.11+11-LTS",
+  "os": "Windows 11 amd64",
+  "input_sha256": "74d6e71bc9d9747c9df4b9f3f7be4fdd1bd3227dfff42fa157d348ab4f8dc00d",
+  "max_heap_bytes": 4294967296,
+  "pattern_size": 6,
+  "pdb_symmetry": true,
+  "tt_power": 21,
+  "pdb_cache": ".cache/pdb",
+  "timeout_seconds": 10.0,
+  "warmup": "one simple instance per configuration; cached PDB; JIT not guaranteed fully warm"
+}

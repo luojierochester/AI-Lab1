@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "suite": "AdvancedChecks",
+  "assertions": 88984,
+  "optimal_searches_checked": 187,
+  "standard_15puzzle_depth": 10,
+  "standard_15puzzle_states": 3754,
+  "arbitrary_15puzzle_depth": 8,
+  "arbitrary_goal_states_total": 2922,
+  "two_by_two_states": 12,
+  "wall_seconds": 0.414676,
+  "command": "java -Xmx4g -cp build/classes stud.g01.tests.AdvancedChecks"
+}

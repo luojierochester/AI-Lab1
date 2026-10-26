@@ -1,0 +1,15 @@
+.idea/
+*.iml
+out/
+build/
+.cache/
+cache/
+tools/
+*.class
+*.log
+visualizer/build/
+visualizer/tools/
+visualizer/vendor/
+visualizer/dist/
+*.tmp
+__pycache__/

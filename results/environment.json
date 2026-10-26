@@ -1,0 +1,19 @@
+{
+  "recorded_date": "2026-10-26",
+  "timezone": "Asia/Shanghai",
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel Core i9-14900HX",
+  "physical_memory_gib": 31.71,
+  "jdk": "BellSoft Liberica OpenJDK 21.0.11+11-LTS",
+  "java_target_release": 17,
+  "max_heap": "4g",
+  "benchmark_threading": "single search thread",
+  "timing": "System.nanoTime wall; ThreadMXBean current thread CPU; PDB preparation separately recorded",
+  "dataset_sha256": {
+    "generated.txt": "74d6e71bc9d9747c9df4b9f3f7be4fdd1bd3227dfff42fa157d348ab4f8dc00d",
+    "pathfinding.txt": "2c5a9ed1f4371d2289878f7951562318b9c79cb88f9ab650b1f84e6b828402a3",
+    "pathfinding3.txt": "63ea6a895b5ad0634a2cd73bad5ece41226afebda6256c06f337d8828077d9e6",
+    "problems.txt": "c5499c0a963f5ab9b58163927172d8b5a19f5914fcda4d381612c07208de0218",
+    "problems3.txt": "2ce87a7a6fd2c65713eb7b3355889a0dc6f828a1a9c86b91221e8721de13c2df"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-10-26T09:29:45.147113100Z",
+  "args": ["benchmark","--input","resources/problems.txt","--size","3","--repeats","3","--timeout","10","--algorithms","astar","--heuristics","manhattan,pdb","--frontiers","heap,list","--output","results/frontiers-eight.csv"],
+  "java": "21.0.11+11-LTS",
+  "os": "Windows 11 amd64",
+  "input_sha256": "c5499c0a963f5ab9b58163927172d8b5a19f5914fcda4d381612c07208de0218",
+  "max_heap_bytes": 4294967296,
+  "pattern_size": 6,
+  "pdb_symmetry": true,
+  "tt_power": 21,
+  "pdb_cache": ".cache/pdb",
+  "timeout_seconds": 10.0,
+  "warmup": "one simple instance per configuration; cached PDB; JIT not guaranteed fully warm"
+}

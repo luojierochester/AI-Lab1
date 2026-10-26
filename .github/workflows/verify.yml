@@ -1,0 +1,23 @@
+name: 实验1自动验证
+on: [push, pull_request]
+jobs:
+  java:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - run: java scripts/Build.java
+      - run: java -Xmx4g -cp build/classes stud.g01.runner.LabRunner verify
+      - run: java -Xmx4g -cp build/classes stud.g01.tests.AdvancedChecks
+  sfml:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 安装构建依赖
+        run: sudo apt-get update && sudo apt-get install -y libsfml-dev
+      - run: cmake -S visualizer -B build/visualizer -DCMAKE_BUILD_TYPE=Release -DNPZ_BUILD_SFML=OFF
+      - run: cmake --build build/visualizer --parallel 2
+      - run: ctest --test-dir build/visualizer --output-on-failure

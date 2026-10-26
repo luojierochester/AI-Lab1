@@ -1,0 +1,1 @@
+{"status":"SOLVED","algorithm":"ida","heuristic":"pdb","frontier":"heap","moves":70,"initial_h":52,"wall_seconds":39.907118000,"cpu_seconds":39.218750000,"preparation_seconds":1.010760900,"total_seconds":40.925112200,"generated":399792496,"expanded":213927977,"peak_frontier":-1,"path_verified":true}

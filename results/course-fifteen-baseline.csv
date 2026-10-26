@@ -1,0 +1,7 @@
+case,size,algorithm,heuristic,frontier,repeat,status,moves,initial_h,wall_seconds,cpu_seconds,preparation_seconds,total_seconds,generated,expanded,peak_frontier,path_verified
+4,4,ida,manhattan,heap,1,SOLVED,52,44,0.043143200,0.046875000,0.000018200,0.043237600,752242,379859,-1,true
+4,4,ida,manhattan,heap,2,SOLVED,52,44,0.041149000,0.031250000,0.000029400,0.041256500,752242,379859,-1,true
+4,4,ida,manhattan,heap,3,SOLVED,52,44,0.041244800,0.031250000,0.000036600,0.041363000,752242,379859,-1,true
+4,4,ida,pdb,heap,1,SOLVED,52,44,0.019943500,0.015625000,0.000343200,0.020351100,170007,84854,-1,true
+4,4,ida,pdb,heap,2,SOLVED,52,44,0.016858100,0.015625000,0.000116500,0.017041500,170007,84854,-1,true
+4,4,ida,pdb,heap,3,SOLVED,52,44,0.015690000,0.015625000,0.000150200,0.015945900,170007,84854,-1,true

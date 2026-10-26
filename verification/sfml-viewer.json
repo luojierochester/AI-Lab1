@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-26",
+  "platform": "Windows x64",
+  "sfml": "2.6.2",
+  "compiler": "MinGW-w64 GCC 8.1.0 x86_64-posix-seh",
+  "cpp_standard": 17,
+  "automated_checks": "PASS: 17 viewer parser/playback checks",
+  "ctest": "1/1 passed; 17 parser/playback checks",
+  "real_paths": [
+    {
+      "path": "results/hard15-cold.npz",
+      "sha256": "995d156cb4c52cf7795a71cd5ae139e8bc657691df4bae34a126ed5693449364",
+      "result": "VALID: 4x4, 70 legal moves"
+    },
+    {
+      "path": "results/course-eight.csv-paths/case1-astar-manhattan-heap-r1.npz",
+      "sha256": "4ef2342d8d94433622db0611d0c4050b96b50122f5bcb9e4734a76f6ec948911",
+      "result": "VALID: 3x3, 21 legal moves"
+    }
+  ],
+  "native_ui_checks": [
+    {
+      "action": "Right key",
+      "observed": "0 -> 1, tile 2 slides right"
+    },
+    {
+      "action": "Mouse previous",
+      "observed": "1 -> 0, initial state restored"
+    },
+    {
+      "action": "Space play",
+      "observed": "automatic playback and moving tile highlighted"
+    },
+    {
+      "action": "Space pause",
+      "observed": "paused at step 19"
+    },
+    {
+      "action": "Up speed",
+      "observed": "1.00x -> 2.00x"
+    },
+    {
+      "action": "Mouse end",
+      "observed": "70/70 and final goal grid shown"
+    },
+    {
+      "action": "Mouse progress bar",
+      "observed": "35/70 and matching intermediate grid shown"
+    },
+    {
+      "action": "Home reset",
+      "observed": "0/70, initial hard15 grid restored"
+    },
+    {
+      "action": "Mouse open file",
+      "observed": "native file picker opened"
+    },
+    {
+      "action": "Final binary O shortcut",
+      "observed": "From the built-in four-step demo, pressing O opened the native file picker without an IME candidate popup."
+    },
+    {
+      "action": "Native file picker full load",
+      "observed": "Entered the absolute Unicode path C:/Users/25651/Desktop/人工智能/lab1/WattAi/results/hard15-cold.npz into the filename field and pressed Enter. The viewer changed from the 3x3 four-step demo to the 4x4 hard15 initial grid, displayed 0/70, hard15-cold.npz, and the validated-path label."
+    },
+    {
+      "action": "Escape close",
+      "observed": "Final viewer window closed after successful load verification."
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "visualizer/screenshots/hard15-start.png",
+      "frame": 0,
+      "dimensions": [
+        1120,
+        800
+      ],
+      "visually_reviewed": true
+    },
+    {
+      "path": "visualizer/screenshots/hard15-middle.png",
+      "frame": 35,
+      "dimensions": [
+        1120,
+        800
+      ],
+      "visually_reviewed": true
+    },
+    {
+      "path": "visualizer/screenshots/hard15-complete.png",
+      "frame": 70,
+      "dimensions": [
+        1120,
+        800
+      ],
+      "visually_reviewed": true
+    }
+  ],
+  "limits": [
+    "UI screenshots verify playback and layout, not search optimality or elapsed search time."
+  ],
+  "process_cleanup": "No viewer left running after acceptance",
+  "executable": {
+    "path": "visualizer/bin/npuzzle-viewer.exe",
+    "bytes": 4038858,
+    "sha256": "bc4d3f1913c4316163390d4083b15bb98e143000412da9e916030f9c073dc341"
+  },
+  "portable_package": {
+    "path": "visualizer/dist/NPuzzle-SFML-Windows-x64.zip",
+    "bytes": 1261335,
+    "sha256": "3026aeb84130ede61f5a8f02f612ed7c93db678a746f784c4a683d846557f64a"
+  },
+  "final_interaction_retest": "Passed on the same executable SHA-256 recorded below; no code or binary change was needed."
+}

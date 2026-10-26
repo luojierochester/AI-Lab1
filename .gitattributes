@@ -1,0 +1,13 @@
+# Keep the supplied framework byte-for-byte identical to the teacher archive.
+src/core/** -text
+src/algs4/** -text
+src/stud/problem/** -text
+src/stud/queue/** -text
+src/stud/runner/WalkerFeeder.java -text
+# Dataset hashes in the measured metadata identify exact bytes on every OS.
+resources/** -text
+*.npz text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.md text eol=lf
+*.sh text eol=lf
