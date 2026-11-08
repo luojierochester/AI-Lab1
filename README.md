@@ -7,6 +7,7 @@
 | 你想做什么 | 入口 |
 |---|---|
 | 查看课程要求和对应实现 | [要求对照](docs/REQUIREMENTS.md) |
+| 查看课程汇报 PPT | [课程汇报](presentation/N-Puzzle实验一-课程汇报.pptx) |
 | 直接观看解路径 | Windows：`visualizer/bin/npuzzle-viewer.exe`，或运行 `visualizer/run.cmd` |
 | 编译并运行 Java 搜索 | 下方“快速运行”；只需 JDK 17 或更高版本 |
 | 查看真实测量结果 | [results](results/)、[测量方法](docs/EXPERIMENTS.md) |
