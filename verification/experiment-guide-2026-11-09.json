@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "date": "2026-11-09",
+  "source_code_commit": "db9bfe9c1e09285e82e856c7affc475511740aaf",
+  "document": "docs/实验一完整解题思路.docx",
+  "markdown": "docs/实验一完整解题思路.md",
+  "docx_sha256": "74bb88783a4b096f9769be206288753b157da5c2d087d4c5aeb85a4dead61554",
+  "markdown_sha256": "7d72bfec2fac8847be1cbc54923b2008099a9048e70321955532976dede94360",
+  "pages": 20,
+  "markdown_blocks_preserved": 353,
+  "figures": 3,
+  "visual_review": "All 20 pages inspected after native Word PDF export; no clipping, overlapping text, or broken tables.",
+  "requirements_review": "Assignment text and all three embedded puzzle images checked against the current course inputs.",
+  "example_checks": [
+    {
+      "algorithm": "astar",
+      "heuristic": "manhattan",
+      "moves": 4,
+      "path_verified": true
+    },
+    {
+      "algorithm": "ida",
+      "heuristic": "pdb",
+      "moves": 4,
+      "path_verified": true
+    }
+  ],
+  "example_paths_match_document": true,
+  "sfml_path_validation": "VALID: 3x3, 4 legal moves",
+  "java_build": "39 Java sources compiled successfully",
+  "ppt_unchanged": true,
+  "performance_data": "Existing results CSV/JSON reviewed; performance benchmarks were not rerun for this documentation change."
+}
