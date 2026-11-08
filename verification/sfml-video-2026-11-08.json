@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-08",
+  "video": {
+    "path": "presentation/media/sfml-playback-demo.mp4",
+    "sha256": "1f1b48d935a3714aa2922c0ad201aed6c5139081be29932b892d518badfdbbe8",
+    "duration_seconds": 20,
+    "width": 1120,
+    "height": 800,
+    "frames_per_second": 30,
+    "frame_count": 600,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio": false,
+    "full_decode": "passed",
+    "source": "Windows gdigrab capture of the repository SFML executable",
+    "case": "visualizer/examples/15puzzle-case10-70steps.npz",
+    "viewer_sha256": "56bc5fce4b63461f67e403c3d6e67937948c3fc261892400e6a8d9cad3091833",
+    "editing": "Removed stationary waits between operations and added operation labels. Slide animations retain their original speed.",
+    "observed_operations": [
+      "Autoplay from step 0, then pause at step 21",
+      "Next step: 21 to 22",
+      "Previous step: 22 to 21",
+      "Jump to the endpoint: step 70"
+    ]
+  },
+  "presentation": {
+    "path": "presentation/N-Puzzle实验一-课程汇报.pptx",
+    "sha256": "4bdd98f5c35d9670e9b93985ea303e32aa89d37a1874b367d53cb816e5b46abd",
+    "baseline_sha256": "08aff2cad4386b1dbc16f7344472bb21f6fdae097d428ba2132f726704242203",
+    "slide_count": 16,
+    "video_slide": 14,
+    "media_embedded": true,
+    "media_linked": false,
+    "embedded_video_matches_standalone": true,
+    "local_delivery_copy_matches_repository": true,
+    "changed_parts": [
+      "[Content_Types].xml",
+      "ppt/media/image8.png",
+      "ppt/slides/_rels/slide14.xml.rels",
+      "ppt/slides/slide14.xml"
+    ],
+    "added_parts": ["ppt/media/sfml-playback-demo.mp4"],
+    "other_parts_byte_identical": true,
+    "play_trigger": "Native PowerPoint main-sequence media-play animation on page click",
+    "powerpoint_slideshow_test": {
+      "page_click_started_video": true,
+      "observed_playback_in_progress": true,
+      "observed_final_frame_step_70": true,
+      "remained_on_slide_14_after_playback": true
+    },
+    "other_presentation_apps_tested": false
+  }
+}

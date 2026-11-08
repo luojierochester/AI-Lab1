@@ -8,6 +8,7 @@
 |---|---|
 | 查看课程要求和对应实现 | [要求对照](docs/REQUIREMENTS.md) |
 | 查看课程汇报 PPT | [课程汇报](presentation/N-Puzzle实验一-课程汇报.pptx) |
+| 查看 20 秒操作录屏 | [播放、单步与跳到终点](presentation/media/sfml-playback-demo.mp4)，已嵌入 PPT 第 14 页，放映时单击播放 |
 | 直接观看解路径 | Windows：`visualizer/bin/npuzzle-viewer.exe`，或运行 `visualizer/run.cmd` |
 | 切换其他课程题目 | [演示案例](visualizer/examples/README.md)：3 个八数码、7 个十五数码的真实解路径 |
 | 编译并运行 Java 搜索 | 下方“快速运行”；只需 JDK 17 或更高版本 |
