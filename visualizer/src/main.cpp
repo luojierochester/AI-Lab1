@@ -114,8 +114,7 @@ void render(sf::RenderTarget& out, const sf::Font& font, const PuzzlePath& path,
     out.clear(bg);
     box(out, 40, 36, 5, 49, accent);
     text(out, font, "N-PUZZLE", 60, 27, 31);
-    text(out, font, "搜索路径实验室", 259, 36, 24, muted);
-    text(out, font, path.demo ? "演示数据 · 内置四步示例，不计入实验结果" : "已载入求解路径 · 每一步均通过合法性校验", 41, 99, 18, path.demo ? gold : accent);
+    if (path.demo) text(out, font, "演示数据 · 内置四步示例，不计入实验结果", 41, 99, 18, gold);
     button(out, font, {{938, 38, 142, 43}, "打开路径文件", 7}, mouse);
 
     board(out, font, path, playback);
@@ -228,7 +227,7 @@ int main(int argc, char** argv) {
         if (validate) { std::cout << "VALID: " << path.size << "x" << path.size << ", " << path.steps() << " legal moves\n"; return 0; }
         sf::Font font;
         if (!loadFont(font, fontPath)) throw std::runtime_error("No Chinese font found. Use --font font.ttf or set NPZ_FONT");
-        sf::RenderWindow window(sf::VideoMode(static_cast<unsigned>(width), static_cast<unsigned>(height)), utf8("N-Puzzle 搜索路径实验室 | SFML"));
+        sf::RenderWindow window(sf::VideoMode(static_cast<unsigned>(width), static_cast<unsigned>(height)), utf8("N-Puzzle | SFML"));
 #ifdef _WIN32
         // This canvas has no text fields. Keep the user's Chinese IME from
         // swallowing letter shortcuts; native file dialogs retain their IME.

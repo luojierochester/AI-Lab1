@@ -11,7 +11,7 @@ Get-ChildItem -LiteralPath (Join-Path $root 'bin') -File | ForEach-Object {
 Copy-Item -LiteralPath (Join-Path $root 'run.cmd') -Destination $package -Force
 Copy-Item -LiteralPath (Join-Path $root 'examples\demo.npz') -Destination (Join-Path $package 'examples') -Force
 @'
-N-Puzzle 搜索路径实验室（SFML 2.6.2 / Windows x64）
+N-Puzzle（SFML 2.6.2 / Windows x64）
 
 1. 双击 run.cmd，打开内置四步演示。演示数据不计入实验性能结果。
 2. 点击右上角“打开路径文件”，选择 Java 求解器导出的 .npz 文件。

@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-08",
+  "base_commit": "05b6b54f7ff02baa42cf38977a43241b1620f8b6",
+  "scope": "Remove the requested viewer branding and loaded-path success banner; retain path validation, demo identification and playback behavior.",
+  "platform": "Windows x64",
+  "compiler": "MinGW-w64 GCC 8.1.0",
+  "powershell": "7.6.9",
+  "sfml": "2.6.2",
+  "build_command": "& .\\visualizer\\build.ps1 -Cxx 'D:\\mingw\\mingw64\\bin\\g++.exe'",
+  "ctest": "1/1 passed",
+  "self_test": "PASS: 17 viewer parser/playback checks",
+  "path_validation": "VALID: 4x4, 70 legal moves",
+  "native_window_title_observed": "N-Puzzle | SFML",
+  "visual_checks": [
+    "Removed branding absent in initial, intermediate and final frames",
+    "Loaded-path success banner absent in initial, intermediate and final frames",
+    "Built-in four-step demo retains its identification"
+  ],
+  "screenshots": [
+    {
+      "path": "visualizer/screenshots/hard15-start.png",
+      "bytes": 110457,
+      "sha256": "31189fca12a1d8f30eaadc24df354b0b5bc68cd12eed0bbd86651bba90a6713f",
+      "frame": 0,
+      "dimensions": [
+        1120,
+        800
+      ],
+      "visually_reviewed": true
+    },
+    {
+      "path": "visualizer/screenshots/hard15-middle.png",
+      "bytes": 111311,
+      "sha256": "2896d46f026430851114f4547946885fcb383c7772d363794ba92bfed33998e6",
+      "frame": 35,
+      "dimensions": [
+        1120,
+        800
+      ],
+      "visually_reviewed": true
+    },
+    {
+      "path": "visualizer/screenshots/hard15-complete.png",
+      "bytes": 119622,
+      "sha256": "5d884c96f54054edfad5b42e37774ccde06c520fc383340ff953f5dbabb7ddc6",
+      "frame": 70,
+      "dimensions": [
+        1120,
+        800
+      ],
+      "visually_reviewed": true
+    }
+  ],
+  "executable": {
+    "path": "visualizer/bin/npuzzle-viewer.exe",
+    "bytes": 4038858,
+    "sha256": "1572050fb7c9b86e52dbb9e37d6206ce6176d146e62a5c08d78680cc50364d2d"
+  },
+  "portable_package": {
+    "path": "visualizer/dist/NPuzzle-SFML-Windows-x64.zip",
+    "bytes": 1261192,
+    "sha256": "dc05d33e01f4c02d8ad504ad90f325d10498dae8232f6ae1d4d582464aacbfc6"
+  },
+  "package_binary_matches": true,
+  "notes": [
+    "The original acceptance record in sfml-viewer.json remains a dated historical snapshot.",
+    "No search algorithms, experiment results or PPT files were changed.",
+    "Frame captures verify this copy change; the full historical interactive checklist was not rerun."
+  ]
+}
