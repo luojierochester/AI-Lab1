@@ -8,6 +8,7 @@
 |---|---|
 | 查看课程要求和对应实现 | [要求对照](docs/REQUIREMENTS.md) |
 | 查看课程汇报 PPT | [课程汇报](presentation/N-Puzzle实验一-课程汇报.pptx) |
+| 准备上台讲解 | [逐页讲稿与答疑](presentation/实验一汇报讲稿.md) · [Word 版](presentation/实验一汇报讲稿.docx)，按约 8 分钟安排，附讲前导读和操作提示 |
 | 查看最新版 20 秒操作录屏 | [播放、单步与跳到终点](presentation/media/sfml-playback-demo-centered.mp4)，已调整标题与竖线的垂直对齐；本版尚未嵌入 PPT |
 | 查看 PPT 中的录屏 | [原版录屏](presentation/media/sfml-playback-demo.mp4)，已嵌入 PPT 第 14 页，放映时单击播放 |
 | 直接观看解路径 | Windows：`visualizer/bin/npuzzle-viewer.exe`，或运行 `visualizer/run.cmd` |
