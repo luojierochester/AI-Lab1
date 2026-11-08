@@ -13,7 +13,8 @@ jobs:
       - run: java -Xmx4g -cp build/classes stud.g01.runner.LabRunner verify
       - run: java -Xmx4g -cp build/classes stud.g01.tests.AdvancedChecks
   sfml:
-    runs-on: ubuntu-latest
+    # Ubuntu 24.04 provides SFML 2.x; newer images ship the incompatible 3.x API.
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - name: 安装构建依赖
