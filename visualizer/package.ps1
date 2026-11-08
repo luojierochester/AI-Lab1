@@ -9,12 +9,14 @@ Get-ChildItem -LiteralPath (Join-Path $root 'bin') -File | ForEach-Object {
     Copy-Item -LiteralPath $_.FullName -Destination (Join-Path $package 'bin') -Force
 }
 Copy-Item -LiteralPath (Join-Path $root 'run.cmd') -Destination $package -Force
-Copy-Item -LiteralPath (Join-Path $root 'examples\demo.npz') -Destination (Join-Path $package 'examples') -Force
+Get-ChildItem -LiteralPath (Join-Path $root 'examples') -File | ForEach-Object {
+    Copy-Item -LiteralPath $_.FullName -Destination (Join-Path $package 'examples') -Force
+}
 @'
 N-Puzzle（SFML 2.6.2 / Windows x64）
 
 1. 双击 run.cmd，打开内置四步演示。演示数据不计入实验性能结果。
-2. 点击右上角“打开路径文件”，选择 Java 求解器导出的 .npz 文件。
+2. 点击右上角“打开路径文件”，默认进入 examples 文件夹。这里提供课程题目的真实解路径，文件名标有题号和步数；对应关系见 examples\README.md。
 3. 空格：播放/暂停；左右箭头：单步；Home：复位；上下箭头：调速；End：终点；O：打开文件。
 4. 可点击下方按钮和进度条。窗口调整大小时保持棋盘比例。
 5. 命令行：run.cmd 路径文件.npz；或 bin\npuzzle-viewer.exe --validate 路径文件.npz。

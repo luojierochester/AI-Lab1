@@ -9,6 +9,7 @@
 | 查看课程要求和对应实现 | [要求对照](docs/REQUIREMENTS.md) |
 | 查看课程汇报 PPT | [课程汇报](presentation/N-Puzzle实验一-课程汇报.pptx) |
 | 直接观看解路径 | Windows：`visualizer/bin/npuzzle-viewer.exe`，或运行 `visualizer/run.cmd` |
+| 切换其他课程题目 | [演示案例](visualizer/examples/README.md)：3 个八数码、7 个十五数码的真实解路径 |
 | 编译并运行 Java 搜索 | 下方“快速运行”；只需 JDK 17 或更高版本 |
 | 查看真实测量结果 | [results](results/)、[测量方法](docs/EXPERIMENTS.md) |
 | 准备后续实验报告 | [算法实现说明](docs/ALGORITHMS.md)、原始 CSV/JSON、SFML 截图 |
@@ -64,6 +65,8 @@ java -Xmx4g -cp build/classes stud.g01.runner.LabRunner solve --input resources/
 ## 可视化使用
 
 Windows 仓库附带约 4 MB 的静态链接 SFML 可执行文件，运行不需要安装 SFML 或编译器。无参数运行显示带明确标记的内置短演示；可在窗口中打开 Java 导出的 `.npz` 文件。
+
+点击“打开路径文件”，默认进入 `visualizer/examples/`。这里已整理课程全部 10 题的解路径，文件名中的 `case` 是原始题号，`steps` 是解的步数。例如 `8puzzle-case02-31steps.npz` 是第 2 题八数码，`15puzzle-case10-70steps.npz` 是第 10 题十五数码。[案例列表](visualizer/examples/README.md)列有原题和求解输出来源；Windows 便携包也包含这些文件。选过文件后，下一次打开会回到上次所选文件的文件夹。
 
 功能包括播放/暂停、前后单步、复位、速度调节、进度跳转和当前步信息。Java 的动作方向指空格移动；界面显示移动滑块的编号和方向，两者方向相反。完整路径在载入时校验，非法文件不会被当作有效答案播放。
 

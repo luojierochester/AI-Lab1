@@ -112,8 +112,8 @@ void miniBoard(sf::RenderTarget& out, const sf::Font& font, const PuzzlePath& pa
 void render(sf::RenderTarget& out, const sf::Font& font, const PuzzlePath& path, const Playback& playback,
             const std::vector<Button>& buttons, sf::Vector2f mouse, const std::string& notice) {
     out.clear(bg);
-    box(out, 40, 36, 5, 49, accent);
-    text(out, font, "N-PUZZLE", 60, 27, 31);
+    box(out, 40, 34, 5, 58, accent);
+    text(out, font, "N-PUZZLE", 60, 22, 44);
     if (path.demo) text(out, font, "演示数据 · 内置四步示例，不计入实验结果", 41, 99, 18, gold);
     button(out, font, {{938, 38, 142, 43}, "打开路径文件", 7}, mouse);
 
@@ -153,11 +153,34 @@ void render(sf::RenderTarget& out, const sf::Font& font, const PuzzlePath& path,
 
 std::string openDialog(sf::WindowHandle handle) {
 #ifdef _WIN32
+    // Locate bundled examples beside bin/, regardless of the launch directory.
+    // After a selection, continue in the folder the user last opened.
+    static std::wstring directory = []() {
+        wchar_t executable[32768] = {};
+        const DWORD length = GetModuleFileNameW(nullptr, executable, 32768);
+        if (!length || length >= 32768) return std::wstring{};
+        std::wstring path(executable, length);
+        auto slash = path.find_last_of(L"/\\");
+        if (slash == std::wstring::npos) return std::wstring{};
+        path.erase(slash);
+        slash = path.find_last_of(L"/\\");
+        if (slash == std::wstring::npos) return std::wstring{};
+        path.erase(slash);
+        path += L"\\examples";
+        const DWORD attributes = GetFileAttributesW(path.c_str());
+        return attributes != INVALID_FILE_ATTRIBUTES && (attributes & FILE_ATTRIBUTE_DIRECTORY)
+            ? path : std::wstring{};
+    }();
     wchar_t file[32768] = {};
     OPENFILENAMEW dialog{}; dialog.lStructSize = sizeof(dialog); dialog.hwndOwner = handle;
     dialog.lpstrFilter = L"N-Puzzle path (*.npz;*.txt)\0*.npz;*.txt\0All files\0*.*\0";
+    dialog.lpstrInitialDir = directory.empty() ? nullptr : directory.c_str();
     dialog.lpstrFile = file; dialog.nMaxFile = 32768; dialog.Flags = OFN_FILEMUSTEXIST | OFN_PATHMUSTEXIST | OFN_NOCHANGEDIR;
-    if (GetOpenFileNameW(&dialog)) return utf8Path(file);
+    if (GetOpenFileNameW(&dialog)) {
+        const std::wstring selected(file);
+        directory = selected.substr(0, selected.find_last_of(L"/\\") + 1);
+        return utf8Path(selected);
+    }
 #else
     (void)handle;
 #endif

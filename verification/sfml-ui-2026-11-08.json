@@ -1,7 +1,7 @@
 {
   "date": "2026-11-08",
-  "base_commit": "b9f9d24b22c53c38ef57955d0ae96d986745ed6b",
-  "scope": "Use 滑块 and 终点局面 in the viewer, remove the reverse-blank/unit-cost hint, update the README, screenshots and slide 14 image.",
+  "base_commit": "fdbdc1fc026625b0e0789ea9745835afb6a81494",
+  "scope": "Enlarge the title from 31 to 44, bundle all 10 course paths, default the Windows file dialog to examples, refresh screenshots and slide 14.",
   "platform": "Windows x64",
   "compiler": "MinGW-w64 GCC 8.1.0",
   "powershell": "7.6.9",
@@ -11,15 +11,14 @@
   "self_test": "PASS: 17 viewer parser/playback checks",
   "path_validation": "VALID: 4x4, 70 legal moves",
   "visual_checks": [
-    "New tile and endpoint wording reviewed at frames 0, 35 and 70.",
-    "Removed hint absent; playback-completion guidance retained.",
-    "Slide 14 opened and rendered in PowerPoint; new screenshot visually reviewed."
+    "Title and spacing reviewed in the built-in demo, a 3x3 course case, and 4x4 frames 0/35/70.",
+    "Slide 14 rendered in PowerPoint and visually reviewed."
   ],
   "screenshots": [
     {
       "path": "visualizer/screenshots/hard15-start.png",
-      "bytes": 103206,
-      "sha256": "53446542da3f3ddbefca22bb936af8d023dc6eac0cab267bc4db4fa801913120",
+      "bytes": 103862,
+      "sha256": "1c5b5d5690256862a0e302447e7b405165598ef758fa42e5326faf034058bd9b",
       "frame": 0,
       "dimensions": [
         1120,
@@ -29,8 +28,8 @@
     },
     {
       "path": "visualizer/screenshots/hard15-middle.png",
-      "bytes": 104035,
-      "sha256": "546fb7584496133b3d2b3384ddc2cff09171e8cba0b27c117dc4b125e65074f0",
+      "bytes": 104689,
+      "sha256": "6ec0e1564d499921bc137d4cde958f4ef944a1999c9a4cfd745c46aac52850f3",
       "frame": 35,
       "dimensions": [
         1120,
@@ -40,8 +39,8 @@
     },
     {
       "path": "visualizer/screenshots/hard15-complete.png",
-      "bytes": 117387,
-      "sha256": "ac74f1d465536628708259ab3f3b7da8d5daeeceea2a4762de551ed3b8a46f0e",
+      "bytes": 118043,
+      "sha256": "b58361891b8b4b3cc1d7d927795f885eea7230103f2f809b5ce0bbf1888c9384",
       "frame": 70,
       "dimensions": [
         1120,
@@ -52,31 +51,137 @@
   ],
   "executable": {
     "path": "visualizer/bin/npuzzle-viewer.exe",
-    "bytes": 4038858,
-    "sha256": "ff225775e62917e6fe35d40f5b6bd9c994d9d088e19a560036d55927d867735a"
+    "bytes": 4041630,
+    "sha256": "56bc5fce4b63461f67e403c3d6e67937948c3fc261892400e6a8d9cad3091833"
   },
   "portable_package": {
     "path": "visualizer/dist/NPuzzle-SFML-Windows-x64.zip",
-    "bytes": 1261042,
-    "sha256": "6730dab232c93fb4292336368f6ccee524bfde0045043ba7bb52dd3f8ea5a2f2"
+    "bytes": 1268463,
+    "sha256": "11d6abedebe55acf6c861604f97c75a34be9d49a05471b4ea78848495e3941df"
   },
   "package_binary_matches": true,
   "presentation": {
     "path": "presentation/N-Puzzle实验一-课程汇报.pptx",
-    "bytes": 575556,
-    "sha256": "7d1b3065705633203cb658cac1158f27d9cc6889e79af3aa1e0dcc38ab39f6b1",
+    "bytes": 576335,
+    "sha256": "08aff2cad4386b1dbc16f7344472bb21f6fdae097d428ba2132f726704242203",
     "slide_count": 16,
     "changed_package_parts": [
-      "ppt/media/image8.png"
+      "ppt/media/image8.png",
+      "ppt/slides/slide14.xml"
     ],
     "embedded_image_matches": true,
     "local_and_repository_copies_match": true,
     "visually_reviewed_slide": 14
   },
   "notes": [
-    "Earlier review records remain available in Git history and sfml-viewer.json.",
-    "Search algorithms and experiment data were not changed.",
-    "Only the embedded image on slide 14 changed; all other PPTX package parts are byte-identical to the base commit.",
-    "Frame captures verify wording and layout; the full historical interactive checklist was not rerun."
-  ]
+    "Search algorithms and original experiment data were not changed.",
+    "Only slide 14 image and the obsolete code-line-count text changed in the PPTX; all other package parts are byte-identical to the base commit.",
+    "The open WPS presentation was preserved; the updated local deck was saved as a separate file.",
+    "The full historical interactive checklist was not rerun. Path/parser tests and captures passed; the native file-dialog click flow remains unverified in this run."
+  ],
+  "examples": [
+    {
+      "path": "visualizer/examples/15puzzle-case04-52steps.npz",
+      "bytes": 2024,
+      "sha256": "c40a9cc490be99d529e9e42e8c48148e9eed2d850602077b404b17c3592f605a",
+      "size": 4,
+      "steps": 52,
+      "packaged_copy_matches": true,
+      "viewer_validation": "passed"
+    },
+    {
+      "path": "visualizer/examples/15puzzle-case05-51steps.npz",
+      "bytes": 1986,
+      "sha256": "c87da82b82fbaed87a8c43a730f3cbca83f20e69129c026c2df41852ffee352a",
+      "size": 4,
+      "steps": 51,
+      "packaged_copy_matches": true,
+      "viewer_validation": "passed"
+    },
+    {
+      "path": "visualizer/examples/15puzzle-case06-56steps.npz",
+      "bytes": 2176,
+      "sha256": "6791f60a6652292b0d9477ff94fbd104c73da143c7788aeae59b823d0a658298",
+      "size": 4,
+      "steps": 56,
+      "packaged_copy_matches": true,
+      "viewer_validation": "passed"
+    },
+    {
+      "path": "visualizer/examples/15puzzle-case07-57steps.npz",
+      "bytes": 2214,
+      "sha256": "89a7de33b2e39150214cdb1756ccef59f7f9f7a904909c1da4ed55402e4d2786",
+      "size": 4,
+      "steps": 57,
+      "packaged_copy_matches": true,
+      "viewer_validation": "passed"
+    },
+    {
+      "path": "visualizer/examples/15puzzle-case08-50steps.npz",
+      "bytes": 1948,
+      "sha256": "3c6e2530a44174ea6c398e29b0696627f0dfda350e69905071d1d0e49316718f",
+      "size": 4,
+      "steps": 50,
+      "packaged_copy_matches": true,
+      "viewer_validation": "passed"
+    },
+    {
+      "path": "visualizer/examples/15puzzle-case09-61steps.npz",
+      "bytes": 2366,
+      "sha256": "be79f4eadd46d3f859f6a0b3293c1564e5a5b14df8321f70336bd0e22caaf09a",
+      "size": 4,
+      "steps": 61,
+      "packaged_copy_matches": true,
+      "viewer_validation": "passed"
+    },
+    {
+      "path": "visualizer/examples/15puzzle-case10-70steps.npz",
+      "bytes": 2708,
+      "sha256": "995d156cb4c52cf7795a71cd5ae139e8bc657691df4bae34a126ed5693449364",
+      "size": 4,
+      "steps": 70,
+      "packaged_copy_matches": true,
+      "viewer_validation": "passed"
+    },
+    {
+      "path": "visualizer/examples/8puzzle-case01-21steps.npz",
+      "bytes": 406,
+      "sha256": "4ef2342d8d94433622db0611d0c4050b96b50122f5bcb9e4734a76f6ec948911",
+      "size": 3,
+      "steps": 21,
+      "packaged_copy_matches": true,
+      "viewer_validation": "passed"
+    },
+    {
+      "path": "visualizer/examples/8puzzle-case02-31steps.npz",
+      "bytes": 586,
+      "sha256": "46f9e4747eb98f5cccbddcc332d8573ced72703824fe41eb9de9067cda0fcfcd",
+      "size": 3,
+      "steps": 31,
+      "packaged_copy_matches": true,
+      "viewer_validation": "passed"
+    },
+    {
+      "path": "visualizer/examples/8puzzle-case03-31steps.npz",
+      "bytes": 586,
+      "sha256": "3050ec87db54d116afa1a221215f97530f9d402b2f5d5cd36a3575689689d448",
+      "size": 3,
+      "steps": 31,
+      "packaged_copy_matches": true,
+      "viewer_validation": "passed"
+    }
+  ],
+  "course_examples_validation": {
+    "instances": 10,
+    "boards": 490,
+    "moves": 480,
+    "original_problem": "resources/problems3.txt",
+    "result": "Initial states, targets, permutations, transitions and CSV records independently checked; each copied path is byte-identical to its recorded source."
+  },
+  "file_dialog": {
+    "initial_directory": "examples beside the executable bin directory",
+    "subsequent_directory": "folder of the last selected path",
+    "code_review": "passed, including drive-root selection",
+    "interactive_verification": "not completed: the desktop automation could not activate the viewer window"
+  }
 }
