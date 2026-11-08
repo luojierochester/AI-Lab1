@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-08",
+  "base_commit": "d7f5ceabad6e406d645b8b7f935296e840239ce3",
+  "scope": "Center the title glyphs vertically against the accent bar and record a new standalone demonstration. Preserve the presentation and its embedded video.",
+  "title": {
+    "character_size": 44,
+    "visible_left": 60,
+    "vertical_center": 63,
+    "accent_bar": {"x": 40, "y": 34, "width": 5, "height": 58},
+    "alignment": "Uses sf::Text local glyph bounds, including the font bearing, to set the origin.",
+    "runtime_visual_check": "passed"
+  },
+  "build": {
+    "command": "& .\\visualizer\\build.ps1 -Cxx 'D:\\mingw\\mingw64\\bin\\g++.exe'",
+    "ctest": "1/1 passed",
+    "self_test": "PASS: 17 viewer parser/playback checks",
+    "path_validation": "VALID: 4x4, 70 legal moves",
+    "executable": "visualizer/bin/npuzzle-viewer.exe",
+    "sha256": "bc1e5fbc2d51180d97abc6059a76e00ed2af881512ab56e5d7f8aa487fc19093",
+    "portable_package_rebuilt": true,
+    "portable_package_binary_matches": true,
+    "portable_package_sha256": "878f068d5579dd8030ed7d5be5173746301df218669573ce2d18c237515e123b"
+  },
+  "video": {
+    "path": "presentation/media/sfml-playback-demo-centered.mp4",
+    "sha256": "c262c7f49f56a72fcaaf97dd29986ec339ee8149231a083de5e53ccdcc1b852e",
+    "bytes": 268878,
+    "source": "Actual Windows gdigrab capture of the rebuilt SFML executable",
+    "case": "visualizer/examples/15puzzle-case10-70steps.npz",
+    "duration_seconds": 20,
+    "dimensions": [1120, 800],
+    "frames_per_second": 30,
+    "frame_count": 600,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio": false,
+    "full_decode": "passed",
+    "source_segments_seconds": [[6, 17], [22.2, 25.2], [31.4, 34.4], [40.9, 43.9]],
+    "editing": "Removed stationary waits and added operation labels; playback animations retain their original speed.",
+    "observed_operations": [
+      "0-11 seconds: autoplay from step 0, then pause at step 14",
+      "11-14 seconds: next step from 14 to 15",
+      "14-17 seconds: previous step from 15 to 14",
+      "17-20 seconds: jump to the endpoint at step 70"
+    ],
+    "initial_pause_next_previous_endpoint_frames_visually_reviewed": true
+  },
+  "presentation": {
+    "unchanged": true,
+    "sha256": "4bdd98f5c35d9670e9b93985ea303e32aa89d37a1874b367d53cb816e5b46abd",
+    "previous_standalone_and_embedded_video_preserved": true,
+    "new_video_embedded": false
+  }
+}

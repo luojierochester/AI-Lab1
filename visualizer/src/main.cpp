@@ -113,7 +113,13 @@ void render(sf::RenderTarget& out, const sf::Font& font, const PuzzlePath& path,
             const std::vector<Button>& buttons, sf::Vector2f mouse, const std::string& notice) {
     out.clear(bg);
     box(out, 40, 34, 5, 58, accent);
-    text(out, font, "N-PUZZLE", 60, 22, 44);
+    sf::Text title("N-PUZZLE", font, 44);
+    const auto titleBounds = title.getLocalBounds();
+    // Align the visible glyphs with the accent bar, excluding the font's top bearing.
+    title.setOrigin(titleBounds.left, titleBounds.top + titleBounds.height / 2);
+    title.setPosition(60, 34 + 58 / 2.f);
+    title.setFillColor(ink);
+    out.draw(title);
     if (path.demo) text(out, font, "演示数据 · 内置四步示例，不计入实验结果", 41, 99, 18, gold);
     button(out, font, {{938, 38, 142, 43}, "打开路径文件", 7}, mouse);
 
