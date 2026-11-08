@@ -131,14 +131,13 @@ void render(sf::RenderTarget& out, const sf::Font& font, const PuzzlePath& path,
         const auto& current = path.boards[playback.index()];
         const auto& next = path.boards[playback.index() + 1];
         int from = blankPosition(next), to = blankPosition(current);
-        text(out, font, "将牌 " + std::to_string(current[from]) + "  " + direction(from, to, path.size), 607, 395, 32);
-        text(out, font, "空格反向移动一格，步代价 = 1", 609, 465, 17, muted);
+        text(out, font, "滑块 " + std::to_string(current[from]) + "  " + direction(from, to, path.size), 607, 395, 32);
     } else {
         text(out, font, "已到达路径终点", 607, 395, 30, accent);
         text(out, font, "空格键重新播放，或打开另一条路径", 609, 465, 17, muted);
     }
 
-    text(out, font, "目标状态（路径末帧）", 609, 533, 17, muted);
+    text(out, font, "终点局面", 609, 533, 17, muted);
     miniBoard(out, font, path, 920, 531);
     text(out, font, "速度  " + number(playback.speed()) + "×", 609, 568, 22);
     text(out, font, "文件  " + basename(path.source).substr(0, 36), 609, 608, 15, muted);
